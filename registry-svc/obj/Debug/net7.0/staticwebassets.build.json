@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "L4ffhXxv27s2d+coQHwK00QMxQl3yErdceDZOcrmRw4=",
+  "Source": "RegistrySvc",
+  "BasePath": "_content/RegistrySvc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

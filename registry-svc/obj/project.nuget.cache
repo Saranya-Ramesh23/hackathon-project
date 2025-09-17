@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "gwS4c6T8des=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\saran\\Downloads\\device-provision-full\\registry-svc\\RegistrySvc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saran\\.nuget\\packages\\microsoft.aspnetcore.authentication.certificate\\7.0.0\\microsoft.aspnetcore.authentication.certificate.7.0.0.nupkg.sha512",
+    "C:\\Users\\saran\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\saran\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\saran\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\saran\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\saran\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\saran\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "RegistrySvc.Controllers.HealthController",
+    "Method": "Live",
+    "RelativePath": "health/live",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegistrySvc.Controllers.HealthController",
+    "Method": "Ready",
+    "RelativePath": "health/ready",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegistrySvc.Controllers.DevicesController",
+    "Method": "Register",
+    "RelativePath": "registry/devices",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RegistrySvc.Models.DeviceRecord",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegistrySvc.Controllers.DevicesController",
+    "Method": "Get",
+    "RelativePath": "registry/devices/{deviceId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
