@@ -1,0 +1,38 @@
+version: '3.8'
+services:
+  registry:
+    build: ./registry-svc
+    container_name: registry-svc
+    ports:
+      - "5000:80"
+      - "5001:5001"
+    networks:
+      - devnet
+
+  issuer:
+    build: ./issuer-svc
+    container_name: issuer-svc
+    environment:
+      - REGISTRY_URL=http://registry:80
+      - CA_PFX_PATH=/certs/dev-ca.pfx
+      - CA_PFX_PASSWORD=changeme
+    volumes:
+      - ./certs:/certs:ro
+    depends_on:
+      - registry
+    networks:
+      - devnet
+
+  frontend:
+    image: nginx:stable-alpine
+    container_name: frontend
+    ports:
+      - "4200:80"
+    volumes:
+      - ./frontend/dist/device-provision-frontend:/usr/share/nginx/html:ro
+    networks:
+      - devnet
+
+networks:
+  devnet:
+    driver: bridge
