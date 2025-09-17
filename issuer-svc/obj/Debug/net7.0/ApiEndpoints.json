@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "IssuerSvc.Controllers.HealthController",
+    "Method": "Live",
+    "RelativePath": "health/live",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IssuerSvc.Controllers.HealthController",
+    "Method": "Ready",
+    "RelativePath": "health/ready",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IssuerSvc.Controllers.IssuerController",
+    "Method": "Download",
+    "RelativePath": "issuer/certs/{deviceId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IssuerSvc.Controllers.IssuerController",
+    "Method": "Enroll",
+    "RelativePath": "issuer/enroll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "IssuerSvc.Models.EnrollRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

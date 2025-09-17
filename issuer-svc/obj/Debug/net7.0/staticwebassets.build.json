@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "G43vPezG1AgewmKDymw7QMQ5cD/mer7jbmOIs/pBMhM=",
+  "Source": "IssuerSvc",
+  "BasePath": "_content/IssuerSvc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
